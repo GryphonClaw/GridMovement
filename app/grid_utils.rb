@@ -8,7 +8,7 @@ def draw_grid(args)
   tile_w = 32
   tile_h = 32
 
-  tile_count = {x: 35, y: 23}
+  tile_count = {x: 40, y: 23}
 
   grid_cell_count_w = ((32 * tile_count.x) / tile_w).to_i
   grid_cell_count_h = ((32 * tile_count.y) / tile_h).to_i
