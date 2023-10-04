@@ -4,4 +4,4 @@
 # cd ..
 # exec ./dragonruby mygame/
 # exec ./dragonruby
-exec ./dragonruby mygame/
+exec ../dragonruby mygame/
