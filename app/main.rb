@@ -10,7 +10,6 @@ def settings_init args
 
   args.state.move_direction ||= :east
   args.state.player_sprite ||= GameSprite.new(32, 32, 32, 32)
-  args.state.show_player_sprite = true
 end
 
 def tick args
